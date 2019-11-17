@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B68A08C2381562A0070598F /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A08B2381562A0070598F /* MainGameViewController.swift */; };
+		3B68A08E2381568D0070598F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A08D2381568D0070598F /* SettingViewController.swift */; };
+		3B68A090238156A60070598F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A08F238156A60070598F /* EventsViewController.swift */; };
+		3B68A092238156B80070598F /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A091238156B80070598F /* ActivitiesViewController.swift */; };
+		3B68A094238157350070598F /* RoleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A093238157350070598F /* RoleSettingViewController.swift */; };
+		3B68A0962381674F0070598F /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A0952381674F0070598F /* ShopViewController.swift */; };
+		3B68A09A23816D350070598F /* ActivityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A09923816D350070598F /* ActivityTableView.swift */; };
+		3B68A09C23816D650070598F /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A09B23816D650070598F /* ActivityTableViewCell.swift */; };
+		3B68A09E238179880070598F /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A09D238179880070598F /* RestaurantListTableViewController.swift */; };
+		3B68A0A0238179AD0070598F /* FoodListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A09F238179AD0070598F /* FoodListTableViewController.swift */; };
+		3B68A0A2238179E20070598F /* FoodDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A0A1238179E20070598F /* FoodDescriptionViewController.swift */; };
+		3B68A0A42381854E0070598F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68A0A32381854E0070598F /* AboutUsViewController.swift */; };
 		3B92A100238151EB008D1C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92A0FF238151EB008D1C0A /* AppDelegate.swift */; };
 		3B92A102238151EB008D1C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92A101238151EB008D1C0A /* ViewController.swift */; };
 		3B92A105238151EB008D1C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B92A103238151EB008D1C0A /* Main.storyboard */; };
@@ -15,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B68A08B2381562A0070598F /* MainGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		3B68A08D2381568D0070598F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3B68A08F238156A60070598F /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		3B68A091238156B80070598F /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		3B68A093238157350070598F /* RoleSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSettingViewController.swift; sourceTree = "<group>"; };
+		3B68A0952381674F0070598F /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		3B68A09923816D350070598F /* ActivityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableView.swift; sourceTree = "<group>"; };
+		3B68A09B23816D650070598F /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		3B68A09D238179880070598F /* RestaurantListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewController.swift; sourceTree = "<group>"; };
+		3B68A09F238179AD0070598F /* FoodListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewController.swift; sourceTree = "<group>"; };
+		3B68A0A1238179E20070598F /* FoodDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDescriptionViewController.swift; sourceTree = "<group>"; };
+		3B68A0A32381854E0070598F /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		3B92A0FC238151EB008D1C0A /* DidYouEatToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DidYouEatToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B92A0FF238151EB008D1C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B92A101238151EB008D1C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +59,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B68A08A238154F20070598F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B68A09823816C480070598F /* Activities Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A091238156B80070598F /* ActivitiesViewController.swift */,
+				3B68A09923816D350070598F /* ActivityTableView.swift */,
+				3B68A09B23816D650070598F /* ActivityTableViewCell.swift */,
+			);
+			path = "Activities Screen";
+			sourceTree = "<group>";
+		};
 		3B92A0F3238151EB008D1C0A = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +95,81 @@
 		3B92A0FE238151EB008D1C0A /* DidYouEatToday */ = {
 			isa = PBXGroup;
 			children = (
+				3BF8459423819804006D924F /* FoodDescription Screen */,
+				3BF84593238197B6006D924F /* RoleSetting Screen */,
+				3BF845922381979C006D924F /* MainGame Screen */,
+				3BF8459123819764006D924F /* Shop Screen */,
+				3BF845902381973D006D924F /* Events Screen */,
+				3BF8458F23819714006D924F /* RestaurantList Screen */,
+				3BF8458E238196FE006D924F /* FoodList Screen */,
+				3B68A09823816C480070598F /* Activities Screen */,
+				3B68A08A238154F20070598F /* Model */,
 				3B92A0FF238151EB008D1C0A /* AppDelegate.swift */,
 				3B92A101238151EB008D1C0A /* ViewController.swift */,
+				3B68A08D2381568D0070598F /* SettingViewController.swift */,
+				3B68A0A32381854E0070598F /* AboutUsViewController.swift */,
 				3B92A103238151EB008D1C0A /* Main.storyboard */,
 				3B92A106238151EC008D1C0A /* Assets.xcassets */,
 				3B92A108238151EC008D1C0A /* LaunchScreen.storyboard */,
 				3B92A10B238151EC008D1C0A /* Info.plist */,
 			);
 			path = DidYouEatToday;
+			sourceTree = "<group>";
+		};
+		3BF8458E238196FE006D924F /* FoodList Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A09F238179AD0070598F /* FoodListTableViewController.swift */,
+			);
+			path = "FoodList Screen";
+			sourceTree = "<group>";
+		};
+		3BF8458F23819714006D924F /* RestaurantList Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A09D238179880070598F /* RestaurantListTableViewController.swift */,
+			);
+			path = "RestaurantList Screen";
+			sourceTree = "<group>";
+		};
+		3BF845902381973D006D924F /* Events Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A08F238156A60070598F /* EventsViewController.swift */,
+			);
+			path = "Events Screen";
+			sourceTree = "<group>";
+		};
+		3BF8459123819764006D924F /* Shop Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A0952381674F0070598F /* ShopViewController.swift */,
+			);
+			path = "Shop Screen";
+			sourceTree = "<group>";
+		};
+		3BF845922381979C006D924F /* MainGame Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A08B2381562A0070598F /* MainGameViewController.swift */,
+			);
+			path = "MainGame Screen";
+			sourceTree = "<group>";
+		};
+		3BF84593238197B6006D924F /* RoleSetting Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A093238157350070598F /* RoleSettingViewController.swift */,
+			);
+			path = "RoleSetting Screen";
+			sourceTree = "<group>";
+		};
+		3BF8459423819804006D924F /* FoodDescription Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A0A1238179E20070598F /* FoodDescriptionViewController.swift */,
+			);
+			path = "FoodDescription Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +243,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B68A09E238179880070598F /* RestaurantListTableViewController.swift in Sources */,
+				3B68A0A0238179AD0070598F /* FoodListTableViewController.swift in Sources */,
+				3B68A08C2381562A0070598F /* MainGameViewController.swift in Sources */,
+				3B68A092238156B80070598F /* ActivitiesViewController.swift in Sources */,
+				3B68A0A42381854E0070598F /* AboutUsViewController.swift in Sources */,
+				3B68A09C23816D650070598F /* ActivityTableViewCell.swift in Sources */,
+				3B68A094238157350070598F /* RoleSettingViewController.swift in Sources */,
 				3B92A102238151EB008D1C0A /* ViewController.swift in Sources */,
+				3B68A0A2238179E20070598F /* FoodDescriptionViewController.swift in Sources */,
+				3B68A09A23816D350070598F /* ActivityTableView.swift in Sources */,
+				3B68A0962381674F0070598F /* ShopViewController.swift in Sources */,
 				3B92A100238151EB008D1C0A /* AppDelegate.swift in Sources */,
+				3B68A08E2381568D0070598F /* SettingViewController.swift in Sources */,
+				3B68A090238156A60070598F /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = top.timemory.DidYouEatToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = top.timemory.DidYouEatToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
